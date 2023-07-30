@@ -1,0 +1,52 @@
+#middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: aqua;
+  }
+  
+  #middle > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .image,
+  .image2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  
+  .middle-link {
+    text-decoration: none;
+    color: #333;
+  }
+  #middle1{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    #middle {
+      grid-template-columns: 1fr; /* Single column for smaller screens */
+      grid-gap: 20px; /* Increase the gap for better spacing on smaller screens */
+    }
+  }
+  
+
+  .get{
+    background-color: aqua;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+
+
+  }
